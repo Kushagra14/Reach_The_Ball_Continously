@@ -29,8 +29,19 @@ The code implemented in this project is via multiple agents. If you want to run 
 3. Jupyter-notebook
 4. Untiy Environment
 
-### Getting Started
+### Setting up the environment
+
+The environment can be downloaded from one of the links below for all operating systems
+
+- Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
+- Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
+- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
+- Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
+- _For AWS_: To train the agent on AWS (without [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux_NoVis.zip) to obtain the "headless" version of the environment.  The agent can **not** be watched without enabling a virtual screen, but can be trained.  (_To watch the agent, one can follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
+
+### Installation Guide
 1. Clone this repository on your local machine
+   ```git clone https://github.com/Kushagra14/Reach_The_Ball_Continously.git```
 2. Open the project using jupyter-notebook
 3. [Shift + Ent] to execute every cell. This particular code will start learning neural network and will run one episode in backgorund
 4. You can also load the weights provided in this repositroy using code below:
